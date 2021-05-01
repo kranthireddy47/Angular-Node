@@ -1,0 +1,22 @@
+let num1:Array<number>=[1,2,3,4,5,6,7];
+let num2:Array<number>=[9,8,7,6,5,4,3,34];
+let num3:Array<any>=new Array();
+console.log("size is "+num1.length);
+console.log("size is "+num2.length);
+num3.push(23);
+num3.push(345.76);
+num3.push("kranthi");
+num3.push(true);
+console.log(num3.length);
+num3.pop();//remove last element
+num3.pop();
+num2.pop();
+num1.pop();
+console.log(num1.length);
+console.log(num2.length);
+console.log(num3.length);
+num1.shift();
+num2.shift();
+console.log(num1);
+console.log(num2);
+console.log(num3);

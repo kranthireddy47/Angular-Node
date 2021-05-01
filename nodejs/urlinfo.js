@@ -1,0 +1,14 @@
+var url=require("url");
+var urldetails="http://localhost:9090?name=ravi&age=21";
+console.log(url.parse(urldetails));
+console.log(url.parse(urldetails).protocol);
+console.log(url.parse(urldetails).host);
+console.log(url.parse(urldetails).query);
+console.log(url.parse(urldetails).port);
+console.log(url.parse(urldetails).query);
+var que= url.parse(urldetails,true).query;
+console.log(que);
+var n=que.name;
+var a=que.age;
+console.log(n);
+console.log(a);

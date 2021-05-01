@@ -1,0 +1,18 @@
+var a = 100;
+var b = 100.30;
+var fname = "KRANTHI REDDY";
+var res = true;
+var abc = "chandhu";
+console.log(a);
+console.log(b);
+console.log(res);
+console.log(fname);
+var id;
+var lname;
+var msg;
+//let status:boolean;
+id = 456;
+lname = "punna";
+msg = "srinu";
+msg = 56;
+//status=false;

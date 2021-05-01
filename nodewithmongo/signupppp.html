@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form for User</title>
+
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+    table{
+        margin-left: 350px;
+    }
+    tr{
+        margin-left: 0px;
+    }
+select,input[type=text],[type=password],[type=email],[type=number]{
+    padding-left: 5px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 0.4em;
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0px;
+  text-align: center;
+
+}
+label{
+    padding-left:0px;
+    text-decoration-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+h2{
+    text-decoration-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+tr,td,table{
+  width:50%;
+}
+    </style>
+
+</head>
+<body>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2>USER Registration Form</h2>
+                        <table>
+                        <div class="form-row">
+                          <div class="form-group">
+                            <tr>  <td>  <label for="name">FirstName :</label>  </td>
+                              <td><input type="text" name="fname" id="name" required/></td></tr>
+                            </div>
+
+
+                            <div class="form-group">
+                            <tr><td>  <label for="lname">LastName :</label></td>
+                              <td>  <input type="text" name="lname" id="father_name" required/></td></tr>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <tr><td>    <label for="address">Address :</label></td>
+                          <td>  <input type="text" name="address" id="address" required/></td></tr>
+                        </div>
+                            <div class="form-group">
+                              <tr><td>  <label for="state">State :</label></td>
+                                <td>  <input type="text" name="state" id="state" required/>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span></td></tr>
+                                </div>
+
+                            <div class="form-group">
+                              <tr><td>  <label for="city">City :</label></td>
+                                <td>  <input type="text" name="city" id="city" required/>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span></td></tr>
+                                </div>
+
+                        <div class="form-group">
+                          <tr><td>  <label for="birth_date">DOB :</label></td>
+                            <td><input type="text" name="birth_date" id="birth_date"></td>
+                        </div>
+                        <div class="form-group">
+                          <tr><td>  <label for="pincode">Pincode :</label></td>
+                          <td>  <input type="text" name="pincode" id="pincode"></td></tr>
+                        </div>
+                        <div class="form-group">
+                          <tr><td>  <label for="pnum">Phone Number :</label></td>
+                          <td>  <input type="number" name="pnum" id="pnum" /></td></tr>
+                        </div>
+                        <div class="form-group">
+                          <tr><td>  <label for="email">Email ID :</label></td>
+                          <td>  <input type="email" name="email" id="email" /></td></tr>
+                        </div>
+                        <div class="form-group">
+                          <tr><td>  <label for="password">Password :</label></td>
+                          <td>  <input type="password" name="pass" id="pass" /></td></tr>
+                        </div>
+                        <div class="form-submit">
+                          <tr> <td> <input type="submit" value="Reset All" class="submit" name="reset" id="reset" /></td>
+                          <td>  <input type="submit" value="Signup" class="submit" name="submit" id="submit" /></td></tr>
+                        </div>
+                      </table>
+                    </form>
+                </div>
+
+</body>
+</html>

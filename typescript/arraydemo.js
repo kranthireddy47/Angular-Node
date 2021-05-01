@@ -1,0 +1,10 @@
+var num = [100, 200, 300, 400, 500];
+var names = ["vamshi", "hari", "bharath", "dessu"];
+var info = [100, "chandhu", true, 123.543];
+console.log(num);
+console.log(names);
+console.log(info);
+var friends = ["abc", "ygjhb", "ttyv", "cgbb"];
+var info1 = [12, 12.56, "rtvhbjh", true];
+console.log(friends);
+console.log(info1);
